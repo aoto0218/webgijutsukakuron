@@ -44,6 +44,7 @@ $select_sth->execute();
 
 <head>
   <title>画像投稿できる掲示板</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <!-- フォームのPOST先はこのファイル自身にする -->
