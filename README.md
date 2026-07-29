@@ -1,15 +1,18 @@
-# なんか
+# 手順書
 
-なんかです。
+### 'Docker Compose'と'git'が使える環境を構築します。
 
-## なんかの使い方
+このリポジトリをクローンします。
+```bash git clone https://github.com/aoto0218/webgijutsukakuron.git
 
-```bash
-なんか
-```
+docker compose upします。
+```bash docker compose up
 
-で起動します。
+mysqlに入ります。
+```bash docker compose exec mysql mysql example_db
 
-## なんか
+テーブルを作成します。
+```bash CREATE TABLE `bbs_entries` (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,`body` TEXT NOT NULL,`created_at` DATETIME DEFAULT CURRENT_TIMESTAMP);
 
-いい感じに頑張ってください。
+ブラウザでアクセスします。
+```bash ec2のパブリックIP/bbsimagetest.php
