@@ -6,7 +6,7 @@
 
 このリポジトリをクローンします。
 ```bash
-git clone https://github.com/aoto0218/webgijutsukakuron.gi
+git clone https://github.com/aoto0218/webgijutsukakuron.git
 ```
 
 
